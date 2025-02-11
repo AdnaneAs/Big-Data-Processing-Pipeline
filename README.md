@@ -11,8 +11,8 @@ graph LR
     Z[Zookeeper] --> K[Kafka]
     K --> S[Spark]
     S --> H[HDFS]
-    H --> M[MongoDB]
     S --> W[Worker]
+    W --> M[MongoDB]
 ```
 
 ## Services
